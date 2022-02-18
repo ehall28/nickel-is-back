@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100&display=swap');
+
+.nickel:hover {
+    content: url('../images/nickelcage.png');
+}
+
+.nic:hover {
+    content: url('../images/nic1.jpg');
+}
+
+tr.table-padding>td {
+    padding-bottom: 30px;
+}
+
+body {
+    /* This is to center the page */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    background-color: black;
+
+    /* background-image: url('../images/band2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+}
+
+p {
+    color:chocolate;
+    font-family: 'Josefin Sans', serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.list-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    color:chocolate;
+    font-family: 'Josefin Sans', serif;
+    font-size: 20px;
+}
+
+table {
+    color:chocolate;
+    font-family: 'Josefin Sans', serif;
+    font-size: 25px;
+    text-align: left;
+    font-weight: bold;
+}
+
+a {
+    color:chocolate;
+    font-family: 'Josefin Sans', serif;
+    font-weight: bolder;
+}
+
+h1 {
+    color:chocolate;
+    font-family: 'Sora', serif;
+    font-size: 100px; 
+    margin-bottom: 0;
+}
+
+.artist-name {
+    margin-top: 0;
+}
