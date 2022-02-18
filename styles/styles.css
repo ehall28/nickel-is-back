@@ -13,6 +13,11 @@ tr.table-padding>td {
     padding-bottom: 30px;
 }
 
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+
 body {
     /* This is to center the page */
     display: block;
